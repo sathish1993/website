@@ -2,7 +2,9 @@
   margin: 0px;
   padding: 0px;
 }*/
-
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 #home {
   background-image: url("bg.jpg");
   left: 0;
@@ -38,7 +40,7 @@
   color: springgreen;
   line-height: 60px;
   text-align: center;
-  font-family: cursive;
+
   font-size: 20px;
   text-decoration: none;
 }
@@ -57,7 +59,7 @@
   /*right : 10%;*/
   color: white;
   font-size: 50px;
-  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
   margin:10% 0 0 10%;
   width: 80%;
   z-index: 1000
@@ -93,7 +95,7 @@ a:hover#menu-icon {
 }*/
 #about > h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   margin: 5% 0 5% 0;
 }
@@ -103,7 +105,7 @@ a:hover#menu-icon {
   color: floralwhite;
   text-align: justify;
   font-size: 20px;
-  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.8em;
   text-shadow: 2px 2px 4px #00003f;
 }
@@ -137,7 +139,7 @@ span {
 
 #resume > h1,h2,h3 {
   text-align: center;
-  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
   color: floralwhite;
 }
 
@@ -198,7 +200,7 @@ span {
 
 #projects > li > ul{
   color: white;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   list-style-type: circle;
 }
 
@@ -242,7 +244,7 @@ span {
     right : 10%;
     color: white;
     font-size: 50px;
-    font-family: cursive;
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     width: 80%;
     height: 0;*/
