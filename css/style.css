@@ -1,0 +1,251 @@
+/*{
+  margin: 0px;
+  padding: 0px;
+}*/
+
+#home {
+  background-image: url("bg.jpg");
+  left: 0;
+  width: 100%;
+  top: 0;
+  opacity: 10;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  /*height: 60px;*/
+  opacity: 0.70;
+}
+
+#navbar {
+  height: 60px;
+  float: inherit;
+  /*border: 1px solid white;*/
+
+}
+
+#navbar>li {
+  width: 33.33%;
+  list-style: none;
+  float: left;
+}
+
+#navbar li>a{
+  display: block;
+  color: springgreen;
+  line-height: 60px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#navbar li > a:hover{
+  background-color: white;
+}
+
+#navbar li > a:active{
+  background-color: black;
+}
+
+#homepageContent {
+  position: absolute;
+  /*bottom : 70%;*/
+  /*right : 10%;*/
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  margin:10% 0 0 10%;
+  width: 80%;
+  z-index: 1000
+  height: 0;
+}
+
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(http://www.worldcurling.org/_images/menu-icon.png) center;
+}
+
+a:hover#menu-icon {
+  border-radius: 4px 4px 0 0;
+}
+
+                                        /* Start of Second Page*/
+
+#about {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+/*#about > img{
+  max-width: 100%;
+  max-height: 100%;
+}*/
+#about > h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  margin: 5% 0 5% 0;
+}
+
+#about > p {
+  margin: 0 10% 0 10%;
+  color: floralwhite;
+  text-align: justify;
+  font-size: 20px;
+  font-family: cursive;
+  line-height: 1.8em;
+  text-shadow: 2px 2px 4px #00003f;
+}
+
+#about > p > a {
+  text-decoration: none;
+  color: springgreen;
+}
+
+span {
+  color: orange;
+}
+
+#about > hr {
+  color: floralwhite;
+  text-shadow: 2px 2px 4px #00003f;
+}
+
+                                        /* Start of Third Page*/
+
+#resume {
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1;
+  color : floralwhite;
+  line-height: 1.8em;
+  font-size: 17px;
+  text-shadow: 2px 2px 4px #00003f;
+}
+
+#resume > h1,h2,h3 {
+  text-align: center;
+  font-family: cursive;
+  color: floralwhite;
+}
+
+#workExp {
+  margin-left: auto;
+}
+#workExp > ul {
+  text-align: center;
+  text-align: left;
+  float: right;
+  list-style-type: circle;
+  display: inline;
+}
+
+#workExp > p > a {
+  text-decoration: none;
+  color: springgreen;
+}
+
+#education > h3 > a {
+  text-decoration: none;
+  color: springgreen;
+}
+
+#resume > a > button {
+    background-color: springgreen;
+    border: none;
+    color: inherit;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+#resume > a > button:hover {
+    background-color: aqua; /* Green */
+    color: inherit;
+}
+
+                                  /*Start of Projects Tab*/
+
+#projects {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /*opacity: 1;*/
+}
+
+#projects > li > ul{
+  color: white;
+  font-family: sans-serif;
+  list-style-type: circle;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  #menu-icon{
+    display: inline-block;
+  }
+
+  #header{
+    position: absolute;
+  }
+
+  #navbar {
+    height: 10px;
+    float: inherit;
+    /*border: 1px solid white;*/
+  }
+
+  #navbar>li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  #navbar:hover li {
+    display: block;
+  }
+
+  /*li>a{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+  }*/
+
+  #homepageContent {
+    position: absolute;
+    /*bottom : 70%;
+    right : 10%;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    margin: 0 auto;
+    width: 80%;
+    height: 0;*/
+  }
+
+}
