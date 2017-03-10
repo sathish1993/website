@@ -162,7 +162,7 @@ span {
   color: springgreen;
 }
 
-#resume > a > button {
+#resume >  button {
     background-color: springgreen;
     border: none;
     color: inherit;
@@ -177,7 +177,7 @@ span {
     margin-left: 40%;
 }
 
-#resume > a > button:hover {
+#resume >  button:hover {
     background-color: aqua; /* Green */
     color: inherit;
 }
